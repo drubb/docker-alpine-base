@@ -22,6 +22,7 @@ This gives you the latest alpine version. You can switch to older versions speci
   
 2. Run the container<br>
 ```docker run -ti drubb/docker-alpine-base```
+
 ## Override build arguments using Docker CLI
 Use the Docker ```build-arg``` option to override build arguments. Examples:
 * ```docker build -t drubb/docker-alpine-base --build-arg DOCKER_TIMEZONE=Europe/Berlin https://github.com/drubb/docker-alpine-base.git```
