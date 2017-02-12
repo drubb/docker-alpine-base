@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:3.4
 
 # Default arguments, overridable using command line or Docker Compose
 ARG DOCKER_USER_NAME=docker
