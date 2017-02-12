@@ -22,5 +22,5 @@ RUN addgroup -g $DOCKER_GROUP_ID ${DOCKER_USER_NAME} && \
 USER ${DOCKER_USER_NAME}
 
 # Specify working directory and default command
-WORKDIR /var/www/html
+WORKDIR /home/${DOCKER_USER_NAME}
 CMD ["/bin/sh"]
